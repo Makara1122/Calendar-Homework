@@ -1,0 +1,109 @@
+body {
+    font-family: 'kantumruy Pro', sans-serif;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    & img {
+        display: inline-block;
+        width: 300px;
+        margin-right: 40px;
+        box-shadow: 1px 1px gray;
+        border: 1px solid rgb(164, 164, 146);
+        border-radius: 15px ;
+
+    }
+
+    /* & th {
+        font-size: 30px;
+    } */
+
+    & table {
+        border-collapse:separate;
+        width: 100%;
+        border-spacing: 10px;
+    }
+
+    & th {
+        font-size: 17px;
+        text-align: center;
+    }
+    & td {
+        text-align: center;
+        border-radius: 60%;
+
+        box-shadow: 1px 1px;
+        width: 30px;
+        height: 30px;
+        
+    }
+    & td:hover {
+        color: white;
+        border: 1px;
+        border-radius: 1px black;  
+    }
+    
+}
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    height: 100vh;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0;
+    align-items: center;
+    & article {
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        padding: 15px;
+        background: radial-gradient(ellipse at top, #e3d9d9, transparent),
+        radial-gradient(ellipse at bottom, #d8dfd2, transparent);
+        box-shadow: 1px 1px rgb(164, 134, 134);
+        
+        border: 1px solid rgb(164, 164, 146);
+        border-radius: 15px ;
+        margin: auto;
+        width: auto;
+        
+        
+    }
+}
+h1 { 
+    font-size: 30px;
+    color: rgb(64, 110, 110);
+}
+
+.color-red {
+    color: rgb(255, 255, 255);
+    background-color: rgb(164, 52, 52);
+}
+.color-red:hover {
+    border: 2px solid  blue;
+    border-radius: 50% ;
+    border-color: blue;
+    background-color: red;
+    padding: 2px;
+}
+th { 
+    margin-bottom: 10px;
+    padding-top: 0px;
+}
+
+.color-ignore {
+    color: gray;
+}
+.normal-color {
+    background-color: #22c561;
+
+}
+.normal-color:hover {
+    width: 31px;
+    height: 31px;
+}
+
+
